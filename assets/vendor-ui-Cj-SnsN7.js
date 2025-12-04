@@ -1,4 +1,4 @@
-import{r as R,c as Mi,g as oe,R as A}from"./vendor-react-CNbrv-oV.js";/**
+import{r as R,c as Mi,g as oe,R as A}from"./vendor-react-BGSQ2gI6.js";/**
  * @license lucide-react v0.364.0 - ISC
  *
  * This source code is licensed under the ISC license.
