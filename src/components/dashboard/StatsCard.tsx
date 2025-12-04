@@ -13,11 +13,11 @@ const bgGradients = {
   green: 'from-[#16a34a] via-[#3bf0ad] to-[#0ea35c]',
   purple: 'from-[#6d28d9] via-[#a867ff] to-[#6d28d9]',
   indigo: 'from-[#312e81] via-[#6366f1] to-[#312e81]',
-  orange: 'from-[#ea580c] via-[#f97316] to-[#ea580c]',
+  orange: 'from-[#f97316] via-[#fb923c] to-[#ea580c]',
   red: 'from-[#b91c1c] via-[#ef4444] to-[#b91c1c]',
   emerald: 'from-[#065f46] via-[#34d399] to-[#065f46]',
   teal: 'from-[#0f766e] via-[#26f0ff] to-[#0f766e]',
-  yellow: 'from-[#facc15] via-[#fbbf24] to-[#f59e0b]'
+  yellow: 'from-[#fde047] via-[#facc15] to-[#f59e0b]'
 }
 
 const iconGlow = {

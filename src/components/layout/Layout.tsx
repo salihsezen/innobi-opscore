@@ -1,7 +1,7 @@
-import { ReactNode, useState } from 'react'
-import { Sidebar } from './Sidebar'
-import { Header } from './Header'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+﻿import { ReactNode, useState } from "react"
+import { Sidebar } from "./Sidebar"
+import { Header } from "./Header"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 interface LayoutProps {
   children: ReactNode
@@ -14,9 +14,11 @@ export function Layout({ children }: LayoutProps) {
     setSidebarCollapsed(!sidebarCollapsed)
   }
 
+  const sidebarWidth = sidebarCollapsed ? '110px' : '240px'
+
   return (
     <div className="flex h-screen bg-background text-foreground">
-      <div className="relative">
+      <div className="relative flex-shrink-0" style={{ width: sidebarWidth }}>
         <Sidebar collapsed={sidebarCollapsed} />
         
         {/* Toggle Button */}
@@ -27,7 +29,7 @@ export function Layout({ children }: LayoutProps) {
             top: '50%',
             right: '-20px',
             transform: 'translateY(-50%)',
-            zIndex: 35
+            zIndex: 60
           }}
         >
           {sidebarCollapsed ? (
@@ -43,6 +45,9 @@ export function Layout({ children }: LayoutProps) {
         <main className="flex-1 overflow-auto p-6">
           {children}
         </main>
+        <footer className="mt-1 px-6 py-0.5 text-center text-xs text-slate-600 dark:text-slate-500 bg-background">
+          {'\u00a9 2025 Innobi \u2022 Data Engineering \u2022 BI \u2022 Cloud Architecture'}
+        </footer>
       </div>
     </div>
   )
