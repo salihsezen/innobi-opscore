@@ -29,7 +29,7 @@ export function Header() {
   const toggleOn = isLight
 
   const [bulbStage, setBulbStage] = useState(0)
-  const timers = useRef<number[]>([])
+  const timers = useRef<Array<ReturnType<typeof setTimeout>>>([])
   const animating = bulbStage > 0
 
   const clearTimers = () => {
@@ -43,10 +43,10 @@ export function Header() {
     if (theme === 'dark') {
       if (animating) return
       setBulbStage(1)
-      timers.current.push(setTimeout(() => setBulbStage(2), 150))
-      timers.current.push(setTimeout(() => setBulbStage(3), 300))
+      timers.current.push(window.setTimeout(() => setBulbStage(2), 150))
+      timers.current.push(window.setTimeout(() => setBulbStage(3), 300))
       timers.current.push(
-        setTimeout(() => {
+        window.setTimeout(() => {
           setTheme('light')
           setBulbStage(0)
         }, 500)
@@ -183,3 +183,5 @@ export function Header() {
     </header>
   )
 }
+
+
