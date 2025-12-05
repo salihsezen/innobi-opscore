@@ -166,20 +166,14 @@ flowchart LR
 
 ## Screenshots
 
-Add your own screenshots here to make the repo more visual:
-
-```md
 ### Dashboard (Light Mode)
-![Dashboard Light](src\img\Logo.png)
+![Dashboard Light](src/img/Logo.png)
 
 ### Dashboard (Dark Mode)
 ![Dashboard Dark](docs/screenshots/dashboard-dark.png)
 
 ### Purchase Orders with Approvals
 ![Purchase Orders](docs/screenshots/purchase-orders-approvals.png)
-```
-
-> Save images under `docs/screenshots/` and update the paths above.
 
 ---
 
