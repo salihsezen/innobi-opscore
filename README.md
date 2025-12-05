@@ -4,7 +4,7 @@
 Premium neon-glass ERP dashboard built with **React**, **TypeScript**, **Vite**, **Tailwind**, and **Supabase**.  
 Designed and developed by **Innobi (Salih Sezen)** as a modern ERP UX & analytics showcase.
 
-[🌐 Live Site](https://opscore.innobi.site) • [🏷 Innobi Portfolio](https://innobi.site)
+[🌐 Live Site](https://innobi.site) • [🏷 Innobi Portfolio](https://innobi.site)
 
 ---
 
@@ -166,20 +166,16 @@ flowchart LR
 
 ## Screenshots
 
-Add your own screenshots here to make the repo more visual:
-
-```md
-### Dashboard (Light Mode)
-![Dashboard Light](docs/screenshots/dashboard-light.png)
 
 ### Dashboard (Dark Mode)
-![Dashboard Dark](docs/screenshots/dashboard-dark.png)
+![Dashboard Dark](src/img/project-opscore-darkmode.jpg)
+
+### Dashboard (Light Mode)
+![Dashboard Light](src/img/project-opscore-lightmode.jpg)
 
 ### Purchase Orders with Approvals
-![Purchase Orders](docs/screenshots/purchase-orders-approvals.png)
-```
+![Purchase Orders](src/img/project-opscore-pos.jpg)
 
-> Save images under `docs/screenshots/` and update the paths above.
 
 ---
 
@@ -281,7 +277,7 @@ Planned / potential enhancements:
 - **More Modules**
   - Leads / Deals, Forecasts, and Pipeline views.
   - Internal messaging / notifications.
-  - Document library, Business glossary with Supabase Storage.
+  - Document library with Supabase Storage.
 
 - **Analytics**
   - More advanced executive dashboards.
