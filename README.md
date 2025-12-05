@@ -170,7 +170,7 @@ Add your own screenshots here to make the repo more visual:
 
 ```md
 ### Dashboard (Light Mode)
-![Dashboard Light](docs/screenshots/dashboard-light.png)
+![Dashboard Light](src\img\Logo.png)
 
 ### Dashboard (Dark Mode)
 ![Dashboard Dark](docs/screenshots/dashboard-dark.png)
